@@ -35,7 +35,7 @@ const Testimonials = () => {
     { id: 4, description: "This is best Institute in Ajmer. Sir ki teaching teaching is good.", user: 'Mansi Goyal' },
     { id: 5, description: 'This is the first time I have attended a class in this format & wonderfull & effective it be.', user: 'Pratik Rajoriya' },
     { id: 6, description: "It is perfect in all aspects.", user: 'Surbhi' },
-    { id: 7, description: "It is the best institute for Competition.", user: 'Surbhi Jain' },
+    /*{ id: 7, description: "It is the best institute for Competition.", user: 'Surbhi Jain' },*/
   ];
 
   const renderItems = testimonials.map((t) => <RenderTestimonial {...t} />);
