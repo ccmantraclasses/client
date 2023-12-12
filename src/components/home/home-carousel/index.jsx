@@ -26,12 +26,17 @@ const HomeCarousel = () => {
     {
       id: 3,
       label: '',
-      img: 'public/assets/carousel/image3.jpg',
+      img: '/assets/carousel/image3.jpg',
     },
     {
       id: 4,
       label: '',
       img: '/assets/carousel/image4.jpg',
+    },
+    {
+      id: 5,
+      label: '',
+      img: '/assets/carousel/image5.jpg',
     },
   ];
 
