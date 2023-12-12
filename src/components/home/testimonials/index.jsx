@@ -38,7 +38,7 @@ const Testimonials = () => {
     { id: 7, description: "It is the best institute for Competition.", user: 'Surbhi Jain' },
   ];
 
-  const renderItems = testimonials.map((t) => <RenderTestimonial {...t} />);
+  const renderItems = testimonials.map((t) => <RenderTestimonial {...t} />); 
 
   return (
     <Container sx={{ mt: 10 }}>
